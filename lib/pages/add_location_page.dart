@@ -129,8 +129,7 @@ class _AddLocationPageState extends State<AddLocationPage> {
                       children: [
                         TileLayer(
                           urlTemplate:
-                              'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
-                          subdomains: ['a', 'b', 'c'],
+                              'https://api.maptiler.com/maps/streets/{z}/{x}/{y}.png?key=tPvxm10M5jq3xNufZHTF',
                           userAgentPackageName: 'com.example.app',
                         ),
                         if (_selectedLocation != null)
